@@ -1,0 +1,79 @@
+body { 
+	font-family: monospace; 
+	font-size: medium; 
+}
+.w3-btn, .w3-button {
+	padding: 3px 20px;
+	margin-right: 3px;
+}
+
+.save {
+	margin-right: 15px;
+	text-align: right;
+}
+
+label:after { content: " " }
+
+.labelPosition {
+	float: left;
+	width: 150px;
+}
+
+.rahmen {
+	border: 1px solid gray;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	width: auto;
+	max-width: 413px;
+	background: #f9f9f9;
+}
+.rahmenBezeichner {
+	background: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:1px solid lightgray;
+}
+
+.rahmenBezeichnerPosition {
+	margin-top: -10px;
+}
+
+.tab {
+	float: left;
+	width: 54px;
+	border-top: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	background: lightgrey;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.tabBlink {
+	-webkit-animation: backgroundFlash 1s infinite;  /* Safari 4+ */
+	-moz-animation: backgroundFlash 1s infinite;  /* Fx 5+ */
+	-o-animation: backgroundFlash 1s infinite;  /* Opera 12+ */
+	animation: backgroundFlash 1s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes backgroundFlash {
+  0%, 49% {
+	background-color: #f9f9f9;
+  }
+  50%, 100% {
+	background-color: lightgrey;
+  }
+}
+
+.tabHeadline {
+
+}
+.week {
+	height: 20px;
+}
+
+.month {
+
+}
+

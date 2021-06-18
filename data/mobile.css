@@ -1,0 +1,166 @@
+body { 
+	font-family: verdana; 
+	font-size: xx-large; 
+}
+
+h1 {
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+button, input, select, textarea {
+    width: 275px;
+	text-align: right;
+    padding-right: 10px;
+}
+
+.headline {
+	text-align: center;
+	font-size: larger;
+}
+
+.w3-btn, .w3-button {
+	/*padding: 3px 20px;*/
+	/*margin-right: 3px;*/
+	width: 170px;
+}
+
+.navi {
+	padding: 0.01em 16px;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: unset;
+}
+.navibutton {
+
+}
+
+/*label:after { content: ": " }*/
+
+.row {
+	padding: 3px;
+}
+
+.lP {
+	float: left;
+	width: 400px;
+}
+
+.value {
+	float: left;
+    width: 200px;
+	text-align:right;
+	margin-right: 10px;
+}
+
+.unit {
+	
+}
+
+.rahmen {
+	border: 1px solid gray;
+	margin-top: 30px;
+	padding-left: 15px;
+	width: auto;
+	max-width: unset;
+	background: #f9f9f9;
+}
+.borderName {
+	background: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:1px solid lightgray;
+	font-size: smaller;
+}
+
+.borderNamePos {
+	margin-top: -30px;
+}
+
+#tb {
+	float: left;
+	width: 14%;
+	border-top: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	background: lightgrey;
+	text-align: right;
+	padding-right: 5px;
+	font-size: 25px;
+}
+
+.tabBlink {
+	-webkit-animation: backgroundFlash 1s infinite;  /* Safari 4+ */
+	-moz-animation: backgroundFlash 1s infinite;  /* Fx 5+ */
+	-o-animation: backgroundFlash 1s infinite;  /* Opera 12+ */
+	animation: backgroundFlash 1s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes backgroundFlash {
+  0%, 49% {
+	background-color: #f9f9f9;
+  }
+  50%, 100% {
+	background-color: lightgrey;
+  }
+}
+
+#wk {
+height: 38px;
+}
+
+.month {
+
+}
+
+.filename {
+	float:left;
+}
+.filesize {
+
+}
+
+.upload {
+	width:600px;
+}
+
+.upload:before {
+    content: 'Datei';
+    display: inline-block;
+    padding: 24px 23px;
+    height: 64px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff9800;
+	width: 200px;
+}
+
+.box {
+	padding-bottom: 5px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+	background-color: #ff9800;
+	width: 200px;
+}
+
+.delete {
+	width: 600px;
+}
+
+.curve_chart {
+	width: 900px; 
+	height: 300px;
+}
